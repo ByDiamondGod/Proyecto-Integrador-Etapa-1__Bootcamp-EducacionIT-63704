@@ -1,30 +1,20 @@
-Para comenzar a desarrollar
+# Proyecto Integrador: Etapa 1 de 3
+   
+## Inicio de proyecto aplicando:
+  🔸 Vite
+  
+  🔹 HTML - CSS
+  
+  🔸 SASS patrón 7–1 (Regla 7+1) [Estándar de proyectos grandes]
+  
+  🔹 Nomenclatura BEM (Metodología)
+  
 
-## Instalo las dependencias (leer el archivo package.json)
-
-```sh
-npm i
-npm install
-```
-
-## Arrancar el servidor de desarrollo
-
-```sh
-npm run dev
-```
-
-## Crear un alias de Git
-
-```sh
-git config --global alias.s "status --short"
-git config --global alias.ll "log --oneline"
-git config --global --unset alias.s # Eliminar alias
-git config --global --get-regexp alias # Listar alias
-```
-
-## Cuando quiera subirlo por ejemplo a netifly
-Este comando va a terminar generando una carpeta build.
-
-```sh
-npm run build
-```
+## ¿Como será la primera etapa?
+   +  Estilos libres, pero con condiciones
+   +  Full responsive aplicando mobile first
+   +  4 HTML distintos (Inicio la página principal  - Alta – Contacto – Nosotros)
+  
+   ✅ Dificultad:  Intermedia
+   
+   ☢️ Obstáculos:  Mínimos 
