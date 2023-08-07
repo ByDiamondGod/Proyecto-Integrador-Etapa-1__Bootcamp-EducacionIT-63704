@@ -1,2 +1,8 @@
 o	URL GitHub ()
 o	URL Netlify ()
+
+## Cuando quiera subirlo a netifly
+
+Este comando va a terminar generando una carpeta build.
+
+npm run build
