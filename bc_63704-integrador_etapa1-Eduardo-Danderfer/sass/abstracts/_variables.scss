@@ -1,0 +1,26 @@
+// colors
+
+$primary-color: #000000;
+$secundary-color: #0C0C17;
+$tertiary-color: #03df79;
+
+$h1-color: linear-gradient(to top, rgb(252, 252, 252), rgb(104, 242, 247));
+$h2-color: linear-gradient(to right, #ffffff, #00ced1);
+$h3-color: linear-gradient(to bottom, #ffffff, #00ced1);
+
+
+// fonts
+
+$font-size: 1.5rem;
+$font-size-small: 1.2rem;
+$font-size-large: 2rem;
+
+// Breakpoints
+
+$breakpoint-mobile-s: 350px;
+$breakpoint-mobile: 380px;
+$breakpoint-mobile-xl: 480px;
+$breakpoint-tablet: 768px;
+$breakpoint-tablet-xl: 960px;
+$breakpoint-notebook: 1024px;
+$breakpoint-desktop: 1328px;
