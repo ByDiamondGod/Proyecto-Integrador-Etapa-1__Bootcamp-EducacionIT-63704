@@ -1,12 +1,25 @@
-@import "base/reset"; /* parciales. */
+//? Abstracts
+@import "abstracts/variables";
+// @import "abstracts/mixins";
+
+//? Base
+@import "base/reset";
 @import "base/typography";
 
-@import "layout/header";
+//? Components
+@import "components/cards";
+@import "components/efects";
+@import "components/includes";
+// @import "components/loader";
 
+//? Layout
+@import "layout/footer";
+@import "layout/header";
+@import "layout/forms";
+
+//? Pages
 @import "pages/index";
 @import "pages/alta";
 @import "pages/carrito";
 @import "pages/contacto";
 @import "pages/nosotros";
-
-@import "components/cards";
