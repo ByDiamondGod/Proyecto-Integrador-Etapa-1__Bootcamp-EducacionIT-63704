@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Proyecto integrador - CONTACTO</title>
+    <title>Contacto | Galaxy Shop</title>
 </head>
 
 <body>
@@ -53,7 +53,58 @@
     </header>
 
     <main>
+        <section class="main-form section-cards">
 
+            <header class="main-form__header section-cards__header">
+                <h1>Contacto</h1>
+                <span>¿Tenes dudas?</span>
+            </header>
+
+            <form action="" method="post" class="form-container">
+                <div class="form-container__entry-area">
+                    <input type="text" id="nombre" name="nombre" required autofocus>
+                    <label class="form-container__labels" for="nombre">Nombre</label>
+                </div>
+
+                <div class="form-container__entry-area">
+                    <input type="text" id="apellido" name="apellido" required>
+                    <label class="form-container__labels" for="apellido">Apellido</label>
+                </div>
+
+                <div class="form-container__entry-area">
+                    <input type="text" id="email" name="email" required>
+                    <label class="form-container__labels" for="email">Correo</label>
+                </div>
+
+                <div class="form-container__entry-area">
+                    <label for="interest"></label>
+                    <select id="interest" name="interest" class="form-container__labels form-container__select"
+                        required>
+                        <option value="" disabled selected>Selecciona tu consulta</option>
+                        <option value="land">Terrenos y parcelas</option>
+                        <option value="certified">Escrituras y documentos</option>
+                        <option value="planet">Descubrir Planetas</option>
+                        <option value="passport">Adquirir Pasaporte Galáctico</option>
+                        <option value="spacesuit">Comprar Traje Astronauta</option>
+                        <option value="space-trip">Viajar al Espacio</option>
+                        <option value="wifi-satellite">Obtener Satélite WiFi</option>
+                        <option value="other">Otro Interés</option>
+                    </select>
+                </div>
+
+                <div class="form-container__entry-area">
+                    <label class="form-container__labels" for="comentarios"></label>
+                    <textarea class="form-container__textarea" id="comentarios" name="comentarios" rows="2" cols="20"
+                        placeholder="Mensaje"></textarea>
+                </div>
+
+                <div class="form-container__buttons">
+                    <button class="form-container__button form-container__button--send" type="submit">Enviar</button>
+                    <button class="form-container__button form-container__button--delete" type="reset">Borrar</button>
+                </div>
+            </form>
+
+        </section>
     </main>
 
     <footer class="main-footer">
@@ -129,6 +180,7 @@
         </div>
     </footer>
 
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://kit.fontawesome.com/b28b471a93.js" crossorigin="anonymous"></script>
     <script type="module" src="/main.js"></script>
 </body>
