@@ -1,6 +1,6 @@
 //? Abstracts
 @import "abstracts/variables";
-// @import "abstracts/mixins";
+@import "abstracts/mixins";
 
 //? Base
 @import "base/reset";
@@ -9,7 +9,6 @@
 //? Components
 @import "components/cards";
 @import "components/efects";
-@import "components/includes";
 // @import "components/loader";
 
 //? Layout
