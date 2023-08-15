@@ -1,10 +1,12 @@
 .form-container {
   width: 100%;
   background: #000000; /* fallback for old browsers */
-/*   background: linear-gradient(to right, #000000, #080e10, #061921);
+  /*   background: linear-gradient(to right, #000000, #080e10, #061921);
   background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027); */
   padding: 50px;
   border-radius: 15px;
+  margin-top: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 
   &__entry-area,
   &__select {
