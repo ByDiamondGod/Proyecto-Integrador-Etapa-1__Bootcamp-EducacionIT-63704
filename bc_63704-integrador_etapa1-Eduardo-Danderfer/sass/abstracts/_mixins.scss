@@ -3,16 +3,16 @@
 @mixin heading {
   font-size: var.$font-size-title;
   background: var.$h1-color;
-  -webkit-background-clip: text;
   color: transparent;
+  -webkit-background-clip: text;
 }
 
 @mixin paragraph {
   font-size: var.$font-size-title-p;
   font-weight: 400;
-  background: linear-gradient(to top, #ffffff, #8fa3a4);
-  -webkit-background-clip: text;
+  background: var.$p-color;
   color: transparent;
+  -webkit-background-clip: text;
 }
 
 @mixin top-information {
@@ -24,25 +24,18 @@
     &__header {
       text-align: center;
       margin-bottom: 20px;
-  
+
       h1 {
         @include heading;
       }
-  
+
       p {
         @include paragraph;
       }
-  
+
       span.Typewriter__cursor {
         color: #bccada;
       }
-
-      .span-text {
-        @include paragraph;
-      }
-      
-      // Hago un span para los otros html, ya que tuve que dejar exclusivamente el p para el index, porque 
-      // se me repetía el texto del p en todas las paginas, ya que no le puedo poner una ID
     }
   }
 }
@@ -55,25 +48,19 @@
     max-width: 1300px;
     &__header {
       text-align: center;
-      margin-bottom: 20px;
-  
+
       h1 {
         @include heading;
       }
-  
-      p {
+
+      span {
         @include paragraph;
       }
-  
+
       span.Typewriter__cursor {
         color: #bccada;
       }
-
-      .span-text {
-        @include paragraph;
-      }
-      
-      // Hago un span para los otros html, ya que tuve que dejar exclusivamente el p para el index, porque 
+      // Hago un span para los otros html, ya que tuve que dejar exclusivamente el p para el index, porque
       // se me repetía el texto del p en todas las paginas, ya que no le puedo poner una ID
     }
   }
