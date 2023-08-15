@@ -17,7 +17,7 @@
     width: 100%;
     gap: 1.5rem;
     background-image: url("../img/galaxy.webp");
-    background-size: cover ;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -54,6 +54,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+    cursor: pointer;
     &:hover {
       color: $tertiary-color;
       text-shadow: 3.4px 2px 2px #000;
